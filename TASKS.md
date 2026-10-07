@@ -272,6 +272,10 @@ E2E:
 - [x] Tetoriapot/kakkekoの公開リポジトリを作成
 - [x] 検証成功後にdistを公開するGitHub Actionsを追加
 - [x] lint / format / unit / production build / E2E確認
-- [ ] GitHub Pagesを有効化し、公開処理の成功を確認
-- [ ] 公開URLで起動・編集・保存・再読込・書き出し・スマホ表示を確認
+- [x] GitHub Pagesを有効化し、公開処理の成功を確認
+- [x] 公開URLで起動・編集・保存・再読込・書き出し・スマホ表示を確認
 - [x] READMEの公開・データ移行手順を更新し、日本語を確認
+
+公開URL: https://tetoriapot.github.io/kakkeko/
+GitHub Actionsでも単体テスト36件・E2E19件・lint・format・production buildが成功。
+公開環境でHTMLとJSONの出力、JSONの再取り込み、検索、390px幅の表示も確認済み。
