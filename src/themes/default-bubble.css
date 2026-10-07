@@ -1,0 +1,11 @@
+.theme-default-bubble {
+  --theme-radius: 15px;
+  --theme-spacing: 24px;
+}
+.theme-default-bubble .render-dialogue {
+  margin-block: var(--theme-spacing);
+}
+.theme-default-bubble .render-bubble {
+  border-bottom-left-radius: var(--theme-radius);
+  border-bottom-right-radius: var(--theme-radius);
+}

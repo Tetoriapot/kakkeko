@@ -1,0 +1,45 @@
+.theme-aa-classic {
+  --aa-font: 'MS PGothic', 'Mona', monospace;
+  --aa-rule: #bbc2b9;
+}
+.theme-aa-classic .render-dialogue {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.theme-aa-classic .render-avatar {
+  width: auto;
+  min-width: 36px;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
+  font-family: var(--aa-font);
+  font-size: 16px;
+}
+.theme-aa-classic .render-avatar img {
+  width: 44px;
+  height: 44px;
+}
+.theme-aa-classic .render-speaker {
+  font-size: 11px;
+}
+.theme-aa-classic .render-bubble {
+  flex: 1;
+  min-width: 120px;
+  border: 0 !important;
+  border-radius: 0;
+  background: transparent !important;
+  padding: 0;
+  font-family: var(--aa-font);
+}
+.theme-aa-classic .render-bubble p::before {
+  content: '「';
+}
+.theme-aa-classic .render-bubble p::after {
+  content: '」';
+}
+.theme-aa-classic .render-header {
+  border-bottom: 1px dashed var(--aa-rule);
+}

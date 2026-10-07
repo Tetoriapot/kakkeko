@@ -1,0 +1,44 @@
+.theme-magazine-talk {
+  --magazine-accent: #ab5d27;
+  --magazine-serif: 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+}
+.theme-magazine-talk .render-header {
+  border-top: 5px solid #20332d;
+  padding-top: 20px;
+  border-bottom: 1px solid #20332d;
+}
+.theme-magazine-talk .render-header h1 {
+  font-family: var(--magazine-serif);
+  font-size: 1.9em;
+}
+.theme-magazine-talk .render-project-name {
+  color: var(--magazine-accent);
+  font-weight: bold;
+}
+.theme-magazine-talk .render-avatar {
+  border-radius: 6px;
+}
+.theme-magazine-talk .render-bubble {
+  border: 0 !important;
+  border-radius: 0;
+  padding: 0;
+  background: transparent !important;
+  max-width: 100%;
+}
+.theme-magazine-talk .render-dialogue {
+  margin-block: 32px;
+}
+.theme-magazine-talk .render-speaker {
+  border-bottom: 2px solid #e6ddce;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.theme-magazine-talk .render-heading {
+  font-family: var(--magazine-serif);
+  border-left: 4px solid var(--magazine-accent);
+  padding-left: 14px;
+}
+.theme-magazine-talk .render-narration {
+  font-family: var(--magazine-serif);
+  line-height: 2.1;
+}

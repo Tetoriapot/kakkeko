@@ -1,0 +1,34 @@
+.theme-minimal-log {
+  --log-line: #e6e9e3;
+  --log-spacing: 18px;
+}
+.theme-minimal-log .render-dialogue {
+  grid-template-columns: 36px minmax(0, 1fr);
+  column-gap: 12px;
+  padding-bottom: var(--log-spacing);
+  border-bottom: 1px solid var(--log-line);
+  margin-block: var(--log-spacing);
+}
+.theme-minimal-log .render-avatar {
+  width: 36px;
+  height: 36px;
+  font-size: 15px;
+}
+.theme-minimal-log .render-bubble {
+  background: transparent !important;
+  border: 0;
+  padding: 0;
+  max-width: 100%;
+  border-radius: 0;
+}
+.theme-minimal-log .render-speaker {
+  justify-content: flex-start;
+  grid-column: 2;
+}
+.theme-minimal-log .render-dialogue.align-right .render-avatar {
+  grid-column: 1;
+}
+.theme-minimal-log .render-dialogue.align-right .render-bubble {
+  grid-column: 2;
+  justify-self: start;
+}

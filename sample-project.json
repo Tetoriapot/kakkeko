@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "appVersion": "0.1.0",
+  "project": {
+    "id": "proj_sample",
+    "title": "わくわく因習村探検記",
+    "description": "とある村を訪れた探索者たちの記録。",
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "updatedAt": "2026-10-01T00:00:00.000Z",
+    "themeId": "default-bubble"
+  },
+  "characters": [
+    {
+      "id": "char_boon",
+      "name": "ブーン",
+      "aaText": "（　＾ω＾）",
+      "color": "#4F8CFF",
+      "bubbleColor": "#EAF2FF",
+      "position": "left",
+      "order": 1,
+      "isArchived": false
+    },
+    {
+      "id": "char_gm",
+      "name": "GM",
+      "color": "#8B6FE8",
+      "bubbleColor": "#F1ECFF",
+      "position": "left",
+      "order": 2,
+      "isArchived": false,
+      "trpg": {
+        "role": "gm"
+      }
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ep_01",
+      "title": "#01 村に来た",
+      "slug": "01",
+      "order": 1,
+      "status": "draft",
+      "createdAt": "2026-10-01T00:00:00.000Z",
+      "updatedAt": "2026-10-01T00:00:00.000Z",
+      "blocks": [
+        {
+          "id": "b1",
+          "type": "dialogue",
+          "characterId": "char_boon",
+          "text": "これは大変なことになったお",
+          "createdAt": "2026-10-01T00:00:00.000Z",
+          "updatedAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "b2",
+          "type": "narration",
+          "text": "そのとき、遠くから妙な音が聞こえてきた。",
+          "style": "normal",
+          "align": "left",
+          "createdAt": "2026-10-01T00:00:00.000Z",
+          "updatedAt": "2026-10-01T00:00:00.000Z"
+        },
+        {
+          "id": "b3",
+          "type": "dialogue",
+          "characterId": "char_gm",
+          "text": "では全員、聞き耳判定をお願いします",
+          "createdAt": "2026-10-01T00:00:00.000Z",
+          "updatedAt": "2026-10-01T00:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "editor": {
+      "autoSave": true,
+      "autoSaveIntervalMs": 1200,
+      "fontSize": "medium"
+    },
+    "rendering": {
+      "showCharacterNames": true,
+      "showPlayerNames": true,
+      "iconShape": "circle",
+      "bubbleWidth": "normal"
+    }
+  }
+}

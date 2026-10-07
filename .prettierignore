@@ -1,0 +1,11 @@
+node_modules
+dist
+.tools
+package-lock.json
+test-results
+playwright-report
+*_SPEC.md
+PLAN.md
+ROADMAP.md
+TASKS.md
+sample-project.json

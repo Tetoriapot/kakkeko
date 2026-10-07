@@ -1,0 +1,31 @@
+.theme-trpg-replay {
+  --replay-line: #d9d3e5;
+  --replay-accent: #514366;
+}
+.theme-trpg-replay .render-header {
+  border-bottom: 3px double var(--replay-line);
+}
+.theme-trpg-replay .render-project-name {
+  color: var(--replay-accent);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+.theme-trpg-replay .render-bubble {
+  border-radius: 4px;
+  max-width: 100%;
+}
+.theme-trpg-replay .render-speaker small {
+  border: 1px solid var(--replay-line);
+  padding: 0 5px;
+  border-radius: 3px;
+}
+.theme-trpg-replay .render-narration {
+  padding: 18px;
+  background: #f6f4f8;
+  border-left: 2px solid var(--replay-line);
+  font-size: 0.93em;
+}
+.theme-trpg-replay .render-heading {
+  border-bottom: 1px solid var(--replay-line);
+  padding-bottom: 10px;
+}

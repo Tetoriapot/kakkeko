@@ -1,0 +1,52 @@
+kakkeko/
+├─ public/
+├─ src/
+│  ├─ app/
+│  │  ├─ App.tsx
+│  │  ├─ router.tsx
+│  │  └─ providers.tsx
+│  ├─ components/
+│  │  ├─ common/
+│  │  ├─ editor/
+│  │  │  ├─ blocks/
+│  │  │  ├─ CharacterSidebar/
+│  │  │  ├─ EditorCanvas/
+│  │  │  └─ AddBlockBar/
+│  │  ├─ preview/
+│  │  └─ modals/
+│  ├─ features/
+│  │  ├─ projects/
+│  │  ├─ characters/
+│  │  ├─ episodes/
+│  │  ├─ export/
+│  │  ├─ import/
+│  │  └─ themes/
+│  ├─ domain/
+│  │  ├─ types.ts
+│  │  ├─ factories.ts
+│  │  ├─ schema.ts
+│  │  └─ migrations/
+│  ├─ stores/
+│  ├─ db/
+│  │  ├─ indexedDb.ts
+│  │  └─ repositories.ts
+│  ├─ renderer/
+│  ├─ themes/
+│  │  ├─ default-bubble.css
+│  │  ├─ minimal-log.css
+│  │  ├─ aa-classic.css
+│  │  ├─ trpg-replay.css
+│  │  └─ magazine-talk.css
+│  ├─ utils/
+│  └─ styles/
+├─ tests/
+├─ e2e/
+├─ PLAN.md
+├─ UI_SPEC.md
+├─ BLOCK_SPEC.md
+├─ CHARACTER_SPEC.md
+├─ PUBLIC_PAGE_SPEC.md
+├─ JSON_SPEC.md
+├─ ROADMAP.md
+├─ TASKS.md
+└─ README.md
